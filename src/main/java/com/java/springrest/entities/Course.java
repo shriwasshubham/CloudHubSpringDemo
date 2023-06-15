@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 public class Course {
     
 	@Id
-	private int id;
+	private int id; //unique id for course
 	private String name;
 	private String course;
 	
