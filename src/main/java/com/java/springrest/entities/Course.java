@@ -7,14 +7,13 @@ import jakarta.persistence.Id;
 public class Course {
     
 	@Id
-	private int id; //unique id for course
+	private int id;
 	private String name;
 	private String course;
 	
 	
 	public Course() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 
